@@ -4,6 +4,6 @@ resource "aws_route53_zone" "mubeentech" {
 
 
 output "mubeentech" {
+
   value = "${aws_route53_zone.mubeentech.name_servers}"
   }
-  

@@ -5,14 +5,22 @@ variable "region" {
  variable "access_key" {
   description = "access-key"
     type        = string
- default     = "AKIAUY4LVI5TTXLAOWRL"
+
+ default     = ""
+
+
+
 }
 
 variable "secret_key" {
   description = "secret-key"
     type        = string
  
- default = "z9jwIIsCrRc+u/FDhshwaTQnC6wPjMIgFNhPDXVE"
+
+ default = ""
+
+ default = ""
+
 }
 
 variable "ami_id" {
