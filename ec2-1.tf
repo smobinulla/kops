@@ -21,11 +21,7 @@ ssh-keygen -t rsa -b 2048 -f /root/.ssh/id_rsa -N ""
 echo 'export name=mubeentech.xyz' >> ~/.bashrc
 echo 'export KOPS_STATE_STORE=s3://mubeentech.xyz' >> ~/.bashrc
 echo 'export AWS_REGION=us-east-1' >> ~/.bashrc
-<<<<<<< HEAD
 echo 'export CLUSTER_NAME=mubeentech.xyz' >> ~/.bashrc
-=======
-echo 'export CLUSTER_NAME=latheeffoods.shop' >> ~/.bashrc
->>>>>>> e32568b78e37642172d1b6ae80763d0db1c85476
 echo 'alias ku=kubectl' >> ~/.bashrc
 export PATH=$PATH:/usr/local/bin
 source .bashrc
